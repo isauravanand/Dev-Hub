@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.batch-1{
+    margin-top: 10rem;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.b1-left{
+    /* margin-top: 2rem; */
+}
+
+.b1-left span{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #4535c1;
+}
+
+.b1-left p{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.b1-left p i{
+    margin-right: 1rem;
+    color: #4535c1;
+}
+
+.b1-left button{
+    height: 5vh;
+    width: 10vw;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px 10px 5px 10px;
+    border-radius: 6px;
+    border: none;
+    background-color: #FF4C4C;
+    color: white;
+    margin-top: 3rem;
+    margin-right: 2rem;
+}
+
+.b1-right img{
+    height:40vh;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.batch-2{
+    margin-top: 10rem;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.b2-left {
+    font-size: 15rem;
+    /* color: blueviolet; */
+    background-image: linear-gradient(blueviolet, #b8fa03);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.b2-right span{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #4535c1;
+}
+
+.b2-right p{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+.b2-right button{
+    height: 5vh;
+    width: 10vw;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px 10px 5px 10px;
+    border-radius: 6px;
+    border: none;
+    background-color: #FF4C4C;
+    color: white;
+    margin-top: 3rem;
+    margin-right: 2rem;
+}
+
+.b2-right p i{
+    margin-right: 1rem;
+    color: #4535c1;
+}
+
+.fee{
+    display: flex;
+    gap: 5rem;
+    font-weight: 600;
+}
+
+.fee s{
+   color: rgb(143, 21, 21);
+}

@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mern-navbar{
+    height: 25vh;
+    width: 90%;
+    background-color: #4535C1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    margin-left: 5vw;
+    border-radius: 20px;
+    position: absolute;
+}
+
+.mern-navbar span{
+    font-size: 2rem;
+    color: white;
+    font-weight: 600;
+    margin-right: 20rem;
+}
+
+.about-mern{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.mern-card{
+    margin:10rem 10rem 0 0 ;
+    height: 25rem;
+    width: 20rem;
+    border: 1px solid rgb(212, 208, 208);
+    border-radius: 20px;
+    padding: 2rem;
+    background-color: aliceblue;
+    float: right;
+    position: relative;
+
+}
+.mc-upper{
+    height: 15rem;
+    width: 100%;
+}
+
+.mc-upper img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.ml-1{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 0.75rem;
+    margin-bottom: 1rem;
+    margin-left: 0.45rem;
+}
+
+.ml-2{
+    font-size: 1.1rem;
+    display: flex;
+    font-weight: 500;
+    justify-content: space-between;
+    margin: 0 1rem 0 1rem;
+}
+
+.ml-2 s{
+    font-size: 1rem;
+}
+
+.buy-mern{
+    height: 5vh;
+    width: 10vw;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px 10px 5px 10px;
+    border-radius: 6px;
+    border: none;
+    background-color: #FF4C4C;
+    color: white;
+    margin-left: 5rem;
+    margin-top: 1.5rem;
+}
+
+.overview{
+    margin-top: 20rem;
+    margin-left: 10rem;
+    /* position: relative; */
+    /* float:left; */
+}
+
+.overview h6{
+    font-size: 1.5rem;
+    font-weight: 500;
+    border-bottom: 1px solid grey;
+}
+ 
+.overview p{
+    margin-top: 1rem;
+}
+
+.mern{
+    margin-top: 2rem;
+    /* font-size: 1.2rem; */
+    margin-bottom: 2rem;
+}
+.mern h5{
+    font-size: 1rem;
+}
+.mern ul{
+    list-style-type: none;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+.mern span{
+    font-size: 1rem;
+    font-weight: 600;
+}

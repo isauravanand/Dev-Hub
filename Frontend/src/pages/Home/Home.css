@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container-1 {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.c1-section1 {
+    font-size: 2.5rem;
+}
+
+.c1-section1 button {
+    height: 5vh;
+    width: 10vw;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px 10px 5px 10px;
+    border-radius: 6px;
+    border: none;
+    background-color: #FF4C4C;
+    margin-top: 3rem;
+}
+
+.c1-section1 button {
+    text-decoration: none;
+    color: white;
+}
+
+
+.c1-section1 span {
+    font-size: 2.8rem;
+    color: #FF4C4C;
+    font-weight: 500;
+}
+
+.c1-section2 {
+    font-size: 10rem;
+    background-image: linear-gradient(#FF4C4C, #4535c1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.container-2 {
+    height: 25vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: linear-gradient(#e56666, #4535c1);
+    color: white;
+}
+
+.c2-upper {
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 1rem;
+}
+
+.c2-lower {
+    margin-top: 3rem;
+    display: flex;
+    gap: 10rem;
+}
+
+.c2-lower span {
+    font-size: 1.5rem;
+}
+
+.c2-lower p i {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+.container-3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.c3-heading{
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.cards {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    height: 25rem;
+    width: 20rem;
+    border: 1px solid rgb(212, 208, 208);
+    border-radius: 10px;
+    padding: 2rem;
+    background-color: aliceblue;
+}
+
+
+.cards-upper {
+    height: 15rem;
+    width: 100%;
+}
+
+.cards-upper img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+/* 
+.cards-lower {
+ padding: 1rem 0rem 1rem 0rem;
+} */
+
+.cl-1 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 0.75rem;
+    margin-bottom: 1rem;
+    margin-left: 0.45rem;
+}
+
+.cl-2 {
+    font-size: 1.1rem;
+    display: flex;
+    font-weight: 500;
+    justify-content: space-between;
+    margin: 0 1rem 0 1rem;
+}
+
+.cl-2 s {
+    font-size: 1rem;
+}
+
+.explore {
+    height: 5vh;
+    width: 10vw;
+    font-size: 1rem;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px 10px 5px 10px;
+    border-radius: 6px;
+    border: none;
+    background-color: #FF4C4C;
+    color: white;
+    margin-left: 5rem;
+    margin-top: 1.5rem;
+}
+
+.why-dev-hub{
+    height: 10vh;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 2rem;
+}
+
+.container-4{
+    background-color: aliceblue;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom:2rem ;
+}
+.c4-left{
+    margin-left: 5rem;
+
+}
+
+.c4{
+   margin-top: 3rem;
+}
+
+.c4 span{
+    font-size: 1.5rem;
+    font-weight: 600;
+    /* border-bottom: 2px solid #4535c1; */
+}
+
+.c4 p{
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+
+.c4-right{
+    margin-right: 5rem;
+}
+
+.about-section{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+  
+}
+
+.about-section span{
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.about-section p{
+    font-size: 1.05rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
